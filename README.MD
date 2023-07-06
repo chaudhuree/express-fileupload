@@ -55,6 +55,16 @@ const handleUpload = async (e) => {
 
 > while viewing the product i will get product. in the product i will get the image url. but the url is not completed. the folder is in the server. i have to indicate the server then append the url with that. thats how i will get the proper image.
 
+>> the product.image is here like /uploads/image.jpg. so i have to append the server url with this. thats how i will get the image.
+
+>> as by default public is the static folder so i do not have to indicate the public folder.
+
+>> so the final url will be like this
+```
+http://localhost:5000/uploads/${product?.image}
+
+```
+
 ```
 <img  src={`http://localhost:5000/${product?.image}`} className="img-fluid card-img-top" alt="image" />
 
