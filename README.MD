@@ -1,7 +1,7 @@
 [postman](https://documenter.getpostman.com/view/20773865/2s93RWMqcS)
 
-> in this project i want to create product. so in product i need image and i have saved the image in string form.
-> its clear now then image will store the path of image.
+> in this project i want to create product. so in product i need image and i have saved the image in /public/upload folder. and in response i will get a path.
+> and this path wil be stored in the product model image field.
 
 > so in controller i have created two controller one is for image upload and another is for product creation.
 
